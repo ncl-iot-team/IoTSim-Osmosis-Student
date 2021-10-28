@@ -1,0 +1,548 @@
+Initialising...
+Creating topology from file inputFiles/Example1_configuration.json
+Topology built:
+CombinedLeastFullFirst
+Create a policy object and intiate 5000.0
+Create a policy10000.0
+Edge SDN cotroller has been created
+Create a policy object and intiate 40000.0
+Create a policy100.0
+Starting CloudSim version 3.0
+OsmesisBroker is starting...
+Cloud_1 is starting...
+Edge_1 is starting...
+Entities started.
+0.0: OsmesisBroker: Cloud Resource List received with 2 resource(s)
+Cloud_1 is trying to allocate Vm #1 on any given host
+Number of online hosts:1, max was =1
+Cloud_1 is trying to allocate Vm #2 on any given host
+Number of online hosts:2, max was =2
+0.1: OsmesisBroker: VM #1 has been created in Cloud_1, Host #1
+0.1: OsmesisBroker: VM #2 has been created in Cloud_1, Host #2
+Edge_1 is trying to allocate Vm #3 on any given host
+Number of online hosts:1, max was =1
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+Edge_1 is trying to allocate Vm #4 on any given host
+Number of online hosts:2, max was =2
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+0.2: OsmesisBroker: VM #3 has been created in Edge_1, Host #3
+0.2: OsmesisBroker: VM #4 has been created in Edge_1, Host #4
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:1
+1
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:2
+2
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:5
+5
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:6
+6
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:8
+8
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:11
+11
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:12
+12
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:15
+15
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:16
+16
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+User ID:18
+18
+22
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+OsmesisBroker is shutting down...
+Cloud_1 is shutting down...
+Edge_1 is shutting down...
+Simulation completed.
+
+=========================== Osmesis App Results ========================
+App_ID     AppName        Transaction         StartTime        FinishTime       IoTDeviceName              MELName           DataSizeIoTDeviceToMEL_Mb        TransmissionTimeIoTDeviceToMEL         EdgeLetMISize         EdgeLet_MEL_StartTime        EdgeLet_MEL_FinishTime       EdgeLetProccessingTimeByMEL     DestinationVmName      DataSizeMELToVM_Mb      TransmissionTimeMELToVM       CloudLetMISize    CloudLetProccessingTimeByVM      TransactionTotalTime           
+1           App_1               1             100.20             105.34         temperature_1          MEL_1 (Edge_1)                   100                               3.00                            160.0                   103.20                       103.84                            0.64                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.80                         5.14
+1           App_1               2             200.20             205.34         temperature_1          MEL_1 (Edge_1)                   100                               3.00                            160.0                   203.20                       203.84                            0.64                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.80                         5.14
+
+=========================== Osmesis App Results ========================
+App_ID     AppName        Transaction         StartTime        FinishTime       IoTDeviceName              MELName           DataSizeIoTDeviceToMEL_Mb        TransmissionTimeIoTDeviceToMEL         EdgeLetMISize         EdgeLet_MEL_StartTime        EdgeLet_MEL_FinishTime       EdgeLetProccessingTimeByMEL     DestinationVmName      DataSizeMELToVM_Mb      TransmissionTimeMELToVM       CloudLetMISize    CloudLetProccessingTimeByVM      TransactionTotalTime           
+2           App_2               1             100.20             106.73         temperature_2          MEL_2 (Edge_1)                   200                               4.00                            260.0                   104.20                       105.23                            1.03                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.80                         6.53
+2           App_2               2             200.20             206.73         temperature_2          MEL_2 (Edge_1)                   200                               4.00                            260.0                   204.20                       205.23                            1.03                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.80                         6.53
+
+=========================== Osmesis App Results ========================
+App_ID     AppName        Transaction         StartTime        FinishTime       IoTDeviceName              MELName           DataSizeIoTDeviceToMEL_Mb        TransmissionTimeIoTDeviceToMEL         EdgeLetMISize         EdgeLet_MEL_StartTime        EdgeLet_MEL_FinishTime       EdgeLetProccessingTimeByMEL     DestinationVmName      DataSizeMELToVM_Mb      TransmissionTimeMELToVM       CloudLetMISize    CloudLetProccessingTimeByVM      TransactionTotalTime           
+3           App_3               1             100.20             110.50         temperature_1          MEL_1 (Edge_1)                   300                               7.34                            360.0                   107.54                       108.97                            1.43                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.83                        10.30
+3           App_3               2             200.20             210.50         temperature_1          MEL_1 (Edge_1)                   300                               7.34                            360.0                   207.54                       208.97                            1.43                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.83                        10.30
+
+=========================== Osmesis App Results ========================
+App_ID     AppName        Transaction         StartTime        FinishTime       IoTDeviceName              MELName           DataSizeIoTDeviceToMEL_Mb        TransmissionTimeIoTDeviceToMEL         EdgeLetMISize         EdgeLet_MEL_StartTime        EdgeLet_MEL_FinishTime       EdgeLetProccessingTimeByMEL     DestinationVmName      DataSizeMELToVM_Mb      TransmissionTimeMELToVM       CloudLetMISize    CloudLetProccessingTimeByVM      TransactionTotalTime           
+4           App_4               1             100.20             111.19         temperature_2          MEL_2 (Edge_1)                   400                               7.67                            460.0                   107.87                       109.69                            1.82                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.80                        10.99
+4           App_4               2             200.20             211.19         temperature_2          MEL_2 (Edge_1)                   400                               7.67                            460.0                   207.87                       209.69                            1.82                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.80                        10.99
+
+=========================== Osmesis App Results ========================
+App_ID     AppName        Transaction         StartTime        FinishTime       IoTDeviceName              MELName           DataSizeIoTDeviceToMEL_Mb        TransmissionTimeIoTDeviceToMEL         EdgeLetMISize         EdgeLet_MEL_StartTime        EdgeLet_MEL_FinishTime       EdgeLetProccessingTimeByMEL     DestinationVmName      DataSizeMELToVM_Mb      TransmissionTimeMELToVM       CloudLetMISize    CloudLetProccessingTimeByVM      TransactionTotalTime           
+5           App_5               1             100.20             113.43         temperature_1          MEL_1 (Edge_1)                   500                               9.50                            560.0                   109.70                       111.93                            2.23                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.80                        13.23
+5           App_5               2             200.20             213.43         temperature_1          MEL_1 (Edge_1)                   500                               9.50                            560.0                   209.70                       211.93                            2.23                 VM_1 (Cloud_1)                 70                       0.70                   200.0                     0.80                        13.23
+
+=========================== Osmesis Overall Apps Results ========================
+App_Name    IoTDeviceDrained      IoTDeviceBatteryConsumption    TotalIoTGeneratedData      TotalEdgeLetSizes      TotalMELGeneratedData      TotalCloudLetSizes        StartTime        EndTime      SimluationTime       appTotalRunningTmie
+App_1              No                         0.01                        200                        320                     140                        400              0.200           205.337         205.137                 10.275
+App_2              No                         0.01                        400                        520                     140                        400              0.200           206.732         206.532                 13.063
+App_3              No                         0.01                        600                        720                     140                        400              0.200           210.502         210.302                 20.604
+App_4              No                         0.01                        800                        920                     140                        400              0.200           211.190         210.990                 21.980
+App_5              No                         0.01                       1000                       1120                     140                        400              0.200           213.431         213.231                 26.462
+
+=========================== Osmesis Workflow Configrations ========================
+App_Name      DataRate_Sec     StopDataGeneration_Sec      IoTDevice          IoTDeviceOutputData_Mb       MELName     OsmesisEdgelet_MI        MELOutputData_Mb       VmName    OsmesisCloudlet_MI
+App_1           100.0                 300.0              temperature_1                 100                  MEL_1             160                       70               VM_1            200
+App_2           100.0                 300.0              temperature_2                 200                  MEL_2             260                       70               VM_1            200
+App_3           100.0                 300.0              temperature_1                 300                  MEL_1             360                       70               VM_1            200
+App_4           100.0                 300.0              temperature_2                 400                  MEL_2             460                       70               VM_1            200
+App_5           100.0                 300.0              temperature_1                 500                  MEL_1             560                       70               VM_1            200
+
+========== Host Power Consumption ===========
+Cloud_1: host1: 11.290855555555556
+Cloud_1: host2: 11.290855555555556
+========== Switch Power Consumption ===========
+Cloud_1: dc1_gateway: 0.13358333333333253
+Cloud_1: core1: 0.13358333333333253
+Cloud_1: core2: 0.0
+Cloud_1: core3: 0.0
+Cloud_1: core4: 0.0
+Cloud_1: aggregate1: 0.13358333333333253
+Cloud_1: aggregate2: 0.0
+Cloud_1: aggregate3: 0.0
+Cloud_1: aggregate4: 0.0
+Cloud_1: aggregate5: 0.0
+Cloud_1: aggregate6: 0.0
+Cloud_1: aggregate7: 0.0
+Cloud_1: aggregate8: 0.0
+Cloud_1: edge1: 0.13358333333333253
+Cloud_1: edge2: 0.0
+Cloud_1: edge3: 0.0
+Cloud_1: edge4: 0.0
+Cloud_1: edge5: 0.0
+Cloud_1: edge6: 0.0
+Cloud_1: edge7: 0.0
+Cloud_1: edge8: 0.0
+========== Total Power Consumption ===========
+Host energy consumed: 22.58171111111111
+Switch energy consumed: 0.5343333333333301
+Total energy consumed: 23.11604444444444
+
+========== Host Power Consumption ===========
+Edge_1: edgeDevice_1: 10.083889343055557
+Edge_1: edgeDevice_2: 10.084210283333332
+========== Switch Power Consumption ===========
+Edge_1: edge1_gateway: 0.13358333333333253
+Edge_1: core1: 0.13358333333333253
+Edge_1: core2: 0.0
+Edge_1: edge1: 0.08014999999999951
+Edge_1: edge2: 0.05343333333333301
+Edge_1: edge3: 0.0
+Edge_1: edge4: 0.0
+Edge_1: edge5: 0.0
+========== Total Power Consumption ===========
+Host energy consumed: 20.168099626388887
+Switch energy consumed: 0.40074999999999755
+Total energy consumed: 20.568849626388886
+
+
+========== Switch Power Consumption ===========
+wan_sdn: sdwan_router_1: 0.13358333333333253
+wan_sdn: sdwan_router_2: 0.13358333333333253
+wan_sdn: sdwan_router_3: 0.0
+wan_sdn: sdwan_router_4: 0.13358333333333253
+wan_sdn: sdwan_router_5: 0.0
+wan_sdn: sdwan_router_6: 0.13358333333333253
+wan_sdn: dc1_gateway: 0.13358333333333253
+wan_sdn: edge1_gateway: 0.13358333333333253
+========== Total Power Consumption ===========
+Host energy consumed: 0.0
+Switch energy consumed: 0.8014999999999951
+Total energy consumed: 0.8014999999999951
+
+Simulation Finished!
